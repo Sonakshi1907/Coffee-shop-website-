@@ -36,8 +36,7 @@ coffee-shop-website/
 
 ## Live Demo
 
-Add your deployed website link here.
-
+ [🌐 Visit Website](https://sonakshi1907.github.io/Coffee-shop-website-/)
 ## Author
 
 SONAKSHI SONI
