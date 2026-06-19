@@ -31,3 +31,18 @@ document.addEventListener("DOMContentLoaded", function () {
     feedbackInput.value = "";
   });
 });
+
+const sections = ["Home", "About", "Products", "Reviews", "Contact"];
+
+sections.forEach((section) => {
+  gsap.from(`#${section} #heading`, {
+    y: 80,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: `#${section} #heading`,
+      scroller: "body",
+    },
+  });
+});
+
